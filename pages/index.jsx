@@ -1,11 +1,10 @@
-import title from "/src/components/title/title";
+import Title from "/src/components/title/Title";
 
 function HomePage() {
   return (
     <div>
-      <Title />
-      <Title />
-      Hellow world, NextJs + ReactJs
+      <Title>Abertura</Title>
+      Hello world, NextJs + ReactJs
     </div>
   );
 }
