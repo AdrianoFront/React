@@ -1,5 +1,8 @@
 import styles from "../title/Title.module.css";
 
+/* Exemplo de componente React com children(Filhos)
+ */
+
 const constante = "Titulo";
 
 function Title(props) {
