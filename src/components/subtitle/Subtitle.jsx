@@ -1,8 +1,10 @@
-/* Exemplo de componente React com Props(Atributos)
- */
-
-function Subtitle({ text }) {
-  return <h4>{text}</h4>;
+function Subtitle() {
+  return (
+    <div>
+      <Title>Abertura</Title>
+      Hello world, NextJs + ReactJs
+    </div>
+  );
 }
 
 export default Subtitle;
