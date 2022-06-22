@@ -2,6 +2,8 @@ import Head from "next/head";
 
 import Title from "/src/components/title/Title";
 import Subtitle from "/src/components/subtitle/Subtitle";
+import Button from "/src/components/button/Button";
+
 
 function HomePage() {
   return (
@@ -10,10 +12,11 @@ function HomePage() {
         <title>Titulo diferente da home page</title>
       </Head>
       <div>
-        <Title>Abertura</Title>
+        <Title>Um titulo</Title>
         <Subtitle text="Um subtitulo" />
-        Hello world, NextJs + ReactJs
+        <Title>Outro titulo</Title>
         <Subtitle text="Outro subtitulo" />
+        <Button>Botão teste</Button>
       </div>
     </>
   );
