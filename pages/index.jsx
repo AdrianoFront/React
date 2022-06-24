@@ -19,7 +19,7 @@ function HomePage() {
         <Button>Botão teste</Button>
       </div>
     </>
-  );
+  )
 }
 
 export default HomePage;

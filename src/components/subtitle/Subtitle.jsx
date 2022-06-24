@@ -1,9 +1,7 @@
-function Subtitle() {
+function Subtitle ({ text }) {
   return (
-    <div>
-      <Title>Abertura</Title>
-    </div>
-  );
+    <h4>{ text }</h4>
+  )
 }
 
 export default Subtitle;
