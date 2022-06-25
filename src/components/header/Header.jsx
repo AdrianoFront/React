@@ -1,12 +1,24 @@
 import styles from '/Header.modules.css'
 
-function Header ({ children }) {
+function Header ({ children, image }) {
   return (
-    <header className={styles.header}>
+    <header 
+      className={styles.header}
+      style={{
+        `background: url('${image}')`,
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover'
+      }}
+      >
       <div className={styles.headerContent}>{ children }
       </div>      
     </header>
   )
+}
+
+Header.defaultProps = {
+  image: 'https://sejadev-web-app-public-files.s3.amazonaws.com/courses/coffee1.jpg'
 }
 
 export default Header

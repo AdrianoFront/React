@@ -7,10 +7,6 @@
  font-family: 'Roboto', sans-serif;
  display: flex;
  align-items: center;
- background: url('https://sejadev-web-app-public-files.s3.amazonaws.com/courses/coffee1.jpg');
- background-position: center;
- background-position: no-repeat;
- background-position: cover;
 }
 
 .headerContent {
